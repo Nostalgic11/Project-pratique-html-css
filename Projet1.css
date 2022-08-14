@@ -1,0 +1,317 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+body{
+	background: url(bg.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color:  #F1F9E6;
+	padding: 0;
+	margin: 0;
+	font-family:poppins; 
+	box-sizing: border-box;}
+/*navigation bar*/
+
+nav{box-shadow: 5px 10px 30px lightseagreen;
+	display: flex;
+	padding: auto;
+	justify-content: safe center;
+	box-sizing: border-box;
+}
+#logo{
+	width: 66px;
+	height: 52px;
+}	
+
+#logo, ul, li, a{
+
+	display: inline;
+	background: white;
+	box-shadow: 0 0 0 0 lightseagreen;
+	animation: pulse 1.3s infinite;
+}
+ul, li, a{
+	border-radius: 25px;
+	text-decoration-line: none;
+	list-style: none;
+	padding: 0px 25px 0px 25px;
+	color: black;
+
+}
+nav, ul, li, a{
+	letter-spacing: 1px;
+}
+nav, ul, li, a:hover{
+	background: lightseagreen;
+}
+
+.hey{
+	background: palegreen;
+	color: lightseagreen;
+	position: relative;
+	left: 10%;
+}
+.hey:hover{
+	color: black;
+}
+/*nav end*/
+.portfolio{
+	color: white;
+	background: lightseagreen;
+	border-radius: 15px;
+}
+.realise-pro:hover, .portfolio:hover{
+	color: black;
+}
+#present, .model{
+	align-items: center;
+	display: inline;
+	box-sizing: border-box;
+	margin-top: 50px;
+}
+#present{
+	position: absolute;
+	left: 60%;
+	
+}
+.model{
+	width: 250px;
+	position: relative;
+	left: 12%;
+}
+
+/*Compétences*/
+#competence-s{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width:90%;
+margin: auto;}
+
+.skill2{
+width:100%;
+height: 100%;
+width:500px;
+box-shadow: lightseagreen;
+}
+
+.comp-exp span{
+color:lightseagreen;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 1rem;
+}
+.comp-exp h2{
+color: #1c3548;
+font-size: 40px;
+margin:0px;
+font-weight: 100;
+letter-spacing: 1px;
+}
+
+.icon-lang{
+display: flex;
+margin: 25px 0px;
+}
+.icons{
+margin-right:12px;
+}
+.icons i{
+width:40px;
+height: 40px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#D7D0D0;
+font-size: 1.1rem;}
+.fa-html5{color: hotpink;}
+.fa-css3-alt{color: blue;}
+.fa-js-square{color: orange;}
+.fa-star{color: orange;}
+
+/*realisation*/
+#realise{
+	display: flex;
+	align-items: center;
+	margin: 30px 0px;
+	flex-direction: column;
+}
+.realise-heading span{color: lightseagreen;
+text-transform: uppercase; 
+}
+
+.realise-pro{
+	background: lightseagreen;
+	color: white;}
+
+/*clients---*/
+.main-clients{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.main-clients span{color: lightseagreen;
+text-transform: uppercase;}
+
+.main-clients-s{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.client-s {
+width:200px;
+background-color: white;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 10px;
+margin: 20px;
+box-shadow: 5px 10px 30px lightseagreen;
+}
+ .client-s img{
+width:90px;
+height: 90px;
+border-radius: 50px;
+object-fit: cover;
+}
+.star{
+display: flex;
+margin: 10px 0px 10px 0px;}
+
+.client-s p{
+color:#747474;
+font-size: 15px;
+text-align: center;
+display: block;
+margin: 12px;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.client-s a{
+text-decoration-line: none;
+width:150px;
+display: flex;
+justify-content: center;
+align-items: center;
+color:white;
+background-color: lightseagreen;
+border-radius: 50px;
+box-shadow: 4px 10px 30px lightseagreen;
+}
+.client-s a{
+height: 30px;
+margin: auto;
+border-radius: 0px;
+}
+.client-s:hover{
+transform: translateY(-10px);
+box-shadow: 5px 10px 30px lightseagreen;
+background-color: #23cdaf;
+transition: all ease 0.2s;}
+
+.contact{
+	align-content: center;
+	
+}
+.contact img{
+
+	position: relative;
+	left: 40%;
+	width: 200px;
+	align-: center;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+
+.contact-by-mail, .contact h3{
+	text-align: center;
+}
+
+
+/*tfoot*/
+
+div input button{
+	background: white;
+}
+input, .button{
+	border-style: none;
+	border-radius: 50px;
+	background: white;
+}
+.button{
+	background: lightseagreen;
+	color: white;
+	cursor: pointer;
+}
+.button:hover{color: black;
+}
+
+
+
+footer{
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid white;
+	background-color:lightseagreen;
+border-radius: 0px 25px 0px 25px;}
+
+
+
+
+/**Responsive mode**/
+
+@media(max-width: 1140px){
+#logo{margin: auto;
+
+}
+
+	.model{width: 125px;
+		margin-top: 35px;}
+	#present{ font-size: 10px; 
+		margin-top: 10px;}
+	#present p{ font-size: 15px; }
+	#present .portfolio{
+		font-size: 12px;
+	}
+	li{
+		display: flex;	}
+		body {background-color: #DBE6CB;
+			justify-content: space-around;
+			background-attachment: scroll;
+		}
+		.comp-exp h2{
+			font-size: 35px;
+		}
+		
+		
+		.skill2{
+			width: 180px;
+		}
+		.skill-text{
+			width: 180px;
+			font-size: 15px;
+			}
+
+			.recent-img img{ width: 350px;
+				justify-items: center ;
+			}
+		nav{
+			width: auto;
+		}
+		#competence-s{margin-top: 80px;
+			justify-items: center;
+			background: #DBE6CB;}
+			.main-clients-s{width: 360px;}
+			}
+							
+			.client-s p{font-size: 10px;}
+			.client-s img{
+				border-radius: 100px;
+			}
+}
+
